@@ -1,0 +1,19 @@
+.header{
+    width: 100%;
+    border-bottom: 1px solid black;
+    background: #1d1f25;
+}
+.nav{
+    max-width: 1400px;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.navItem{
+    flex:1;
+    padding: 28px 10px;
+    text-align: center;
+    font-size: 30px;
+    border-left: 1px solid #313337;
+    border-right:1px solid #313337 ;
+}
