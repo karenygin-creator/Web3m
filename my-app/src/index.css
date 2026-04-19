@@ -15,3 +15,12 @@ a{
 button,input{
   font-family: inherit;
 }
+.product-grid{
+  display: flex;
+  gap:30px;
+}
+@media(max-width:900px){
+  .product-grid{
+    flex-direction: column;
+  }
+}

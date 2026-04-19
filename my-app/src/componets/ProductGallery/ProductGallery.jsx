@@ -7,11 +7,11 @@ function ProductGallery({ images, currentIndex, setCurrentIndex }) {
         setCurrentIndex(prev => (prev === 0 ? images.length - 1 : prev - 1))
     }
     return (
-        <>
+        
             <div className={styles.gallery}>
                 <img src={images[currentIndex]}
                     className={styles.mainImage}
-                    alt="main" />
+                    />
                 <div className={styles.controls}>
                     <button onClick={prev}>⬅</button>
                     <div className={styles.thumbs}>
@@ -28,7 +28,7 @@ function ProductGallery({ images, currentIndex, setCurrentIndex }) {
                 </div>
             </div>
 
-        </>
+        
     );
 }
 export default ProductGallery;
